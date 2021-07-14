@@ -13,6 +13,27 @@ body {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    border-radius: 10px 10px 0 0;
+}
+
+.header-bar a {
+    text-decoration: none;
+}
+
+.task-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Raleway', sans-serif;
 }
