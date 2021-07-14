@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(to bottom, #669999 0%, #ffffff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 550px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a,p {
+    color: #4b5156;
+}
