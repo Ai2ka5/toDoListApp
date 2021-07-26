@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from .views import TaskList, TaskDetail, TaskCreate, TaskUpdate, TaskDelete, CustomLoginView, RegisterPage
 from django.contrib.auth.views import LogoutView
 
@@ -11,4 +11,5 @@ urlpatterns = [
     path('task-create/', TaskCreate.as_view(), name='task-create'),
     path('task-update/<int:pk>/', TaskUpdate.as_view(), name='task-update'),
     path('task-delete/<int:pk>/', TaskDelete.as_view(), name='task-delete'),
+    path('i18n/', include('django.conf.urls.i18n')),
 ]
